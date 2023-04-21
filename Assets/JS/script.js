@@ -44,5 +44,15 @@ $(function () {
     $(this).find(".description").val(description);
   });
   // TODO: Add code to display the current date in the header of the page.
-  $("#currentDay").text(dayjs().format("dddd, MMMM D, hh:mm:ss"));
+ // $("#currentDay").text(dayjs().format("dddd, MMMM D, hh:mm:ss"));
 });
+function updateTime() {
+  $("#currentDay").text(dayjs().format("dddd, MMMM D, hh:mm:ss"));
+}
+
+// Display the current time when the page loads
+updateTime();
+
+// Update the time every second
+setInterval(updateTime, 1000);
+

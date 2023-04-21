@@ -10,7 +10,7 @@ This Workday Manager lets you type dirrectly into the time slot and when you sav
 Enter your text/notes/scheduled events into the time slots, click the save icon on the right of the
 
 ![alt text](assets/Images/Challenge-5_Screenshot.png)
-https://dominick-d.github.io/FILL_THIS_IN/
+https://dominick-d.github.io/Workday-Schedule/
 
 ## License
 
